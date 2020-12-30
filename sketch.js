@@ -11,11 +11,11 @@ function setup() {
 
   bullet = createSprite(50,200,60,10);
    bullet.velocityX = speed;
-  bullet.shapecolor = "white";
+  bullet.shapeColor = "white";
  
   
   wall = createSprite(1500,200,thickness,height/2);
-  wall.shapecolor = color (80,80,80);
+  wall.shapeColor = color (80,80,80);
 
 
 }
@@ -31,11 +31,11 @@ function draw() {
 
    
    if(damage>10){
-     wall.shapecolor = color (255,0,0);
+     wall.shapeColor = color (255,0,0);
    }
 
    if(damage<10){
-    wall.shapecolor = color (0,255,0);
+    wall.shapeColor = color (0,255,0);
   } 
  }
   
